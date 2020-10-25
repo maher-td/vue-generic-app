@@ -1,6 +1,7 @@
 <template>
     <div id="app">
-        <fontResizeAndColorInverter />
+        <FontResizeAndColorInverter />
+        <SocialMediaComponent />
         <GallerySliderComponent />
         <SliderComponent />
         <ListingPageComponent />
@@ -8,7 +9,8 @@
 </template>
 
 <script>
-    import fontResizeAndColorInverter from './components/FontResizeAndColorInverterComponent.vue'
+    import FontResizeAndColorInverter from './components/FontResizeAndColorInverterComponent.vue'
+    import SocialMediaComponent from './components/SocialMediaComponent.vue'
     import GallerySliderComponent from './components/GallerySliderComponent.vue'
     import SliderComponent from './components/SliderComponent.vue'
     import ListingPageComponent from './components/ListingPageComponent.vue'
@@ -16,7 +18,8 @@
     export default {
         name: 'App',
         components: {
-            fontResizeAndColorInverter,
+            FontResizeAndColorInverter,
+            SocialMediaComponent,
             GallerySliderComponent,
             SliderComponent,
             ListingPageComponent
