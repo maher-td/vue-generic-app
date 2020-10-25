@@ -285,15 +285,20 @@
 </style>
 
 <script>
+
+import DatePicker from 'v-calendar/lib/components/date-picker.umd'
 import Multiselect from 'vue-multiselect'
 import axios from 'axios'
+import Vue from 'vue';
+
+Vue.component('v-date-picker', DatePicker)
 
 let listingThis;
 let contactApiUrl;
 
 export default {
     components: {
-        Multiselect
+      Multiselect
     },
     data: function() { 
         return {
