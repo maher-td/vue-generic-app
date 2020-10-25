@@ -1,22 +1,25 @@
 <template>
-  <div id="app">
-    <GallerySliderComponent/>
-    <SliderComponent/>
-    <ListingPageComponent/>
-  </div>
+    <div id="app">
+        <fontResizeAndColorInverter />
+        <GallerySliderComponent />
+        <SliderComponent />
+        <ListingPageComponent />
+    </div>
 </template>
 
 <script>
-import GallerySliderComponent from './components/GallerySliderComponent.vue'
-import SliderComponent from './components/SliderComponent.vue'
-import ListingPageComponent from './components/ListingPageComponent.vue'
+    import fontResizeAndColorInverter from './components/FontResizeAndColorInverterComponent.vue'
+    import GallerySliderComponent from './components/GallerySliderComponent.vue'
+    import SliderComponent from './components/SliderComponent.vue'
+    import ListingPageComponent from './components/ListingPageComponent.vue'
 
-export default {
-  name: 'App',
-  components: {
-    GallerySliderComponent,
-    SliderComponent,
-    ListingPageComponent
-  }
-}
+    export default {
+        name: 'App',
+        components: {
+            fontResizeAndColorInverter,
+            GallerySliderComponent,
+            SliderComponent,
+            ListingPageComponent
+        }
+    }
 </script>
