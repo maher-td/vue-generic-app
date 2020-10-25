@@ -1,6 +1,7 @@
 <template>
     <div id="app">
         <fontResizeAndColorInverter />
+        <FormValidationVuelidate />
         <GallerySliderComponent />
         <AosAnimationComponent />
         <SliderComponent />
@@ -15,6 +16,7 @@
 
 <script>
     import fontResizeAndColorInverter from './components/FontResizeAndColorInverterComponent.vue'
+    import FormValidationVuelidate from './components/FormValidationVuelidate.vue'
     import GallerySliderComponent from './components/GallerySliderComponent.vue'
     import AosAnimationComponent from './components/AosAnimationComponent.vue'
     import SliderComponent from './components/SliderComponent.vue'
@@ -24,6 +26,7 @@
         name: 'App',
         components: {
             fontResizeAndColorInverter,
+            FormValidationVuelidate,
             GallerySliderComponent,
             AosAnimationComponent,
             SliderComponent,

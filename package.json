@@ -20,7 +20,8 @@
     "vue": "^2.6.11",
     "vue-awesome-swiper": "^4.1.1",
     "vue-cool-lightbox": "^2.6.4",
-    "vue-multiselect": "^2.1.6"
+    "vue-multiselect": "^2.1.6",
+    "vuelidate": "^0.7.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

@@ -1,3 +1,6 @@
+<!-- Needed NPM Installs -->
+<!-- npm install aos --save -->
+
 <template>
     <div>
         <h2>Animated Items</h2>
@@ -19,9 +22,10 @@
         border: 10px solid white;
         color: white;
     }
-    body{
-        /*Should give body overflow x hidden to make AOS work good*/ 
-        overflow-x:hidden;
+
+    body {
+        /*Should give body overflow x hidden to make AOS work good*/
+        overflow-x: hidden;
     }
 </style>
 
