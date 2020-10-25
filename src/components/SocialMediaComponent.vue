@@ -31,18 +31,40 @@
             </ShareNetwork>
         </div>
 
-        <!-- <div class="toaster" v-bind:class="{'show-toaster': isToaster}">
+        <div class="toaster" v-bind:class="{'show-toaster': isToaster}">
             link Copied
-        </div> -->
+        </div>
     </section>
 </template>
 
 <style lang="scss">
+$start: left;
+$end: right;
+
 .social-media {
     display: flex;
     justify-content: center;
     padding: 60px;
 }
+
+.toaster {
+    font-size: calc(var(--a) * calc(16px + (20 - 16) * ((100vw - 768px) / (1366 - 768))));
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    position: fixed;
+    #{$end}: 10px;
+    bottom: -85px;
+    transition: 0.5s;
+    z-index: 10;
+}
+
+.show-toaster {
+    bottom: 10px;
+}
+
 </style>
 
 <script>

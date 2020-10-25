@@ -56,6 +56,7 @@
 
 <script>
 import { Swiper, SwiperSlide } from "vue-awesome-swiper";
+import "swiper/dist/css/swiper.css";
 
 import CoolLightBox from 'vue-cool-lightbox'
 import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
@@ -185,17 +186,13 @@ export default {
     },
     computed: {},
     mounted() {
-      // Reinit Slider
-
       galleryThis = this;
-
-      // galleryThis.fullScreenIndex = 1;
 
       if (galleryThis.imgArray.length == 1) {
         galleryThis.isOneItem = false;
       }
 
-      if (galleryThis.imgArray.length < 4) {
+      if (galleryThis.imgArray.length < 3) {
         galleryThis.isArrows = false;
       }
 
