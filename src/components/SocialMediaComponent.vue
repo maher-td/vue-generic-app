@@ -1,3 +1,6 @@
+<!-- Needed NPM Installs -->
+<!-- npm i axios vue-social-sharing vue-clipboard2 -->
+
 <template>
     <section class="social-media">
         <div>
@@ -9,7 +12,7 @@
                           :url="fullUrl"
                           :title="sharing.title"
                           :description="sharing.description">
-                <i class="icon-facebook"></i>
+                <i class="icon-facebook"> facebook </i>
             </ShareNetwork>
             <ShareNetwork network="twitter"
                           key="twitter"
@@ -17,14 +20,14 @@
                           :title="sharing.title"
                           :description="sharing.description"
                           :twitterUser="sharing.twitterUser">
-                <i class="icon-twitter"></i>
+                <i class="icon-twitter">twitter </i>
             </ShareNetwork>
             <ShareNetwork network="whatsapp"
                           key="whatsapp"
                           :url="fullUrl"
                           :title="sharing.title"
                           :description="sharing.description">
-                <i class="icon-whatsapp"></i>
+                <i class="icon-whatsapp">whatsapp</i>
             </ShareNetwork>
         </div>
 
@@ -87,8 +90,8 @@ export default {
     computed: {},
     mounted() {
         socialThis = this;
-        socialThis.sharing.title = socialThis.socialTitle;
-        socialThis.sharing.description = socialThis.socialSummary;
+        socialThis.sharing.title = "";
+        socialThis.sharing.description = "";
 
         let pageUrlWithoutSpacing = pageURL.replaceAll("%20", "");
 

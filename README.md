@@ -27,5 +27,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### IE Disclaimer
 ```
-IE disclaimer will have a HTML in index.html , Css in style.css , Js in customIeError.js
+IE disclaimer will have a HTML in index.html , Style in App.vue (IEDisclaimerStyle.scss) , Js in (customIeError.js) and includes in index.html
 ```
