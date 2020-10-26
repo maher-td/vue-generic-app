@@ -1,7 +1,6 @@
 <template>
     <div id="app">
         <fontResizeAndColorInverter />
-        <CustomScrollBarComponent />
         <FormValidationVuelidate />
         <GallerySliderComponent />
         <AosAnimationComponent />
@@ -17,7 +16,6 @@
 
 <script>
     import fontResizeAndColorInverter from './components/FontResizeAndColorInverterComponent.vue'
-    import CustomScrollBarComponent from './components/CustomScrollBarComponent.vue'
     import FormValidationVuelidate from './components/FormValidationVuelidate.vue'
     import GallerySliderComponent from './components/GallerySliderComponent.vue'
     import AosAnimationComponent from './components/AosAnimationComponent.vue'
@@ -32,8 +30,7 @@
             GallerySliderComponent,
             AosAnimationComponent,
             SliderComponent,
-            ListingPageComponent,
-            CustomScrollBarComponent
+            ListingPageComponent
         }
     }
 </script>
