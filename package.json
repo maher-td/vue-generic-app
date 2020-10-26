@@ -16,13 +16,9 @@
     "node-sass": "^4.14.1",
     "popper.js": "^1.16.1",
     "sass-loader": "^10.0.4",
-<<<<<<< HEAD
     "simple-scrollbar": "^0.4.0",
-    "swiper": "^6.3.4",
-=======
     "swiper": "^4.5.0",
     "v-calendar": "^1.0.0",
->>>>>>> fc786d1fb1b1aa6761c35b3cde1172cf74c8e9a6
     "vue": "^2.6.11",
     "vue-awesome-swiper": "^4.1.1",
     "vue-clipboard2": "^0.3.1",
